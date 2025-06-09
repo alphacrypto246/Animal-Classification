@@ -8,10 +8,9 @@ The dataset is a custom collection of images for animal classification, organize
 - **Training Set**: 120 images across 3 classes (cats, dogs, snakes).
 - **Validation Set**: 60 images across 3 classes.
 - **Test Set**: 30 images for inference.
-- **Path**: Stored at `/content/drive/MyDrive/Animal Classification/custom_dataset` (update this path based on your setup).
-- **Image Size**: All images are resized to 640x640 pixels during training and inference.
+- - **Image Size**: All images are resized to 640x640 pixels during training and inference.
 
-**Note**: The dataset is not included in this repository. Users must provide their own dataset with a similar structure (train and validation folders with subfolders for each class).
+**Note**: The dataset is not included in this repository. Users must provide their own dataset with a similar structure (train and validation folders with subfolders for each class). I have used less data because of my system restrictions.
 
 ## Model
 - **Architecture**: YOLO11s-cls (pretrained weights: `yolo11s-cls.pt`).
